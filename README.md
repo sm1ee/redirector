@@ -1,6 +1,7 @@
 # redirector
-Simple open redirect fuzzer
+>Simple open redirect fuzzer
 
+```bash
 $python2 redirect.py --help
 usage: redirect.py [-h] [-t <filename>] [-c <cookies>] [-w <URL>]
                    [-X <Method>] [-d <POST_data>]
@@ -32,3 +33,4 @@ optional arguments:
                         Ex) id=id&pw=pw&redirect_url={}
   -H [<header> [<header> ...]], --headers [<header> [<header> ...]]
                         Pass custom header to server
+```
